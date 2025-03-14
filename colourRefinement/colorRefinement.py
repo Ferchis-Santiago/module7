@@ -79,7 +79,7 @@ def colour_refinement(graphs):
 
 
 if __name__ == '__main__':
-    dir = 'SampleGraphsBasicColorRefinement/'
+    dir = 'colourRefinement/SampleGraphsBasicColorRefinement/'
     grl_files = glob.glob(os.path.join(dir, "*.grl"))
     for file_path in grl_files:
         print(file_path)
